@@ -46,4 +46,7 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 # Tomokon Harjoitus
-Host React SPA to Azure using FTP(File transfer Protocol)# azure-harjoitus-staticWebApp
+Host React SPA to Azure using Github actions azure-harjoitus-staticWebApp
+When you host SPA, you have to check where build files will come.
+We can host using Azure Storage, but authN is not supprted. 
+(->Because hosting static web page from storage, no rendering system. So, if you don't need render pages, this hosting process is good solution.)
